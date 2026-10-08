@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- The default-language file. Every translation is checked against it and the fallback chain ends
+       here, so it is required even for a plugin that ships one language. Add a language by adding
+       Localization/Strings.<culture>.resx beside it (Strings.de.resx, Strings.pt-BR.resx).
+       A dotted key becomes a nested class: Actions.LogMessage.Name is Strings.Actions.LogMessage.Name(). -->
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Actions.SetDefaultOutput.Name" xml:space="preserve">
+    <value>Set default output</value>
+  </data>
+  <data name="Actions.SetDefaultOutput.Description" xml:space="preserve">
+    <value>Set the default playback device, or toggle between two.</value>
+  </data>
+  <data name="Actions.SetDefaultMicrophone.Name" xml:space="preserve">
+    <value>Set default microphone</value>
+  </data>
+  <data name="Actions.SetDefaultMicrophone.Description" xml:space="preserve">
+    <value>Set the default recording device, or toggle between two.</value>
+  </data>
+  <data name="Actions.SetDefaultPair.Name" xml:space="preserve">
+    <value>Set default output and microphone</value>
+  </data>
+  <data name="Actions.SetDefaultPair.Description" xml:space="preserve">
+    <value>Change the default playback and recording devices in one press.</value>
+  </data>
+  <data name="Actions.SetAppVolume.Name" xml:space="preserve">
+    <value>Set app volume</value>
+  </data>
+  <data name="Actions.SetAppVolume.Description" xml:space="preserve">
+    <value>Set the volume of one application.</value>
+  </data>
+  <data name="Actions.AppVolumeUp.Name" xml:space="preserve">
+    <value>App volume up</value>
+  </data>
+  <data name="Actions.AppVolumeUp.Description" xml:space="preserve">
+    <value>Raise the volume of one application.</value>
+  </data>
+  <data name="Actions.AppVolumeDown.Name" xml:space="preserve">
+    <value>App volume down</value>
+  </data>
+  <data name="Actions.AppVolumeDown.Description" xml:space="preserve">
+    <value>Lower the volume of one application.</value>
+  </data>
+  <data name="Actions.MuteApp.Name" xml:space="preserve">
+    <value>Mute or unmute app</value>
+  </data>
+  <data name="Actions.MuteApp.Description" xml:space="preserve">
+    <value>Mute, unmute or toggle the mute of one application.</value>
+  </data>
+  <data name="Actions.RefreshDevices.Name" xml:space="preserve">
+    <value>Refresh devices</value>
+  </data>
+  <data name="Actions.RefreshDevices.Description" xml:space="preserve">
+    <value>Re-read the default devices and the list of apps playing audio.</value>
+  </data>
+  <data name="Fields.Mode.Label" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="Fields.Device.Label" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="Fields.Device2.Label" xml:space="preserve">
+    <value>Second device</value>
+  </data>
+  <data name="Fields.AllRoles.Label" xml:space="preserve">
+    <value>Set for all roles (Console, Multimedia, Communications)</value>
+  </data>
+  <data name="Fields.OutputMode.Label" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="Fields.Output.Label" xml:space="preserve">
+    <value>Output device</value>
+  </data>
+  <data name="Fields.Output2.Label" xml:space="preserve">
+    <value>Second output device</value>
+  </data>
+  <data name="Fields.InputMode.Label" xml:space="preserve">
+    <value>Microphone</value>
+  </data>
+  <data name="Fields.Input.Label" xml:space="preserve">
+    <value>Microphone device</value>
+  </data>
+  <data name="Fields.Input2.Label" xml:space="preserve">
+    <value>Second microphone device</value>
+  </data>
+  <data name="Fields.App.Label" xml:space="preserve">
+    <value>App</value>
+  </data>
+  <data name="Fields.Volume.Label" xml:space="preserve">
+    <value>Volume (%)</value>
+  </data>
+  <data name="Fields.Step.Label" xml:space="preserve">
+    <value>Step (%)</value>
+  </data>
+  <data name="Fields.MuteMode.Label" xml:space="preserve">
+    <value>Mute</value>
+  </data>
+  <data name="Modes.Toggle" xml:space="preserve">
+    <value>Toggle between two devices</value>
+  </data>
+  <data name="Modes.Single" xml:space="preserve">
+    <value>Switch to one device</value>
+  </data>
+  <data name="Modes.Unchanged" xml:space="preserve">
+    <value>Leave unchanged</value>
+  </data>
+  <data name="MuteModes.Toggle" xml:space="preserve">
+    <value>Toggle</value>
+  </data>
+  <data name="MuteModes.Mute" xml:space="preserve">
+    <value>Mute</value>
+  </data>
+  <data name="MuteModes.Unmute" xml:space="preserve">
+    <value>Unmute</value>
+  </data>
+  <data name="Variables.DefaultOutput.DisplayName" xml:space="preserve">
+    <value>Default output</value>
+  </data>
+  <data name="Variables.CommOutput.DisplayName" xml:space="preserve">
+    <value>Communications output</value>
+  </data>
+  <data name="Variables.DefaultMic.DisplayName" xml:space="preserve">
+    <value>Default microphone</value>
+  </data>
+  <data name="Variables.CommMic.DisplayName" xml:space="preserve">
+    <value>Communications microphone</value>
+  </data>
+  <data name="Variables.AppVolume.DisplayName" xml:space="preserve">
+    <value>{app} volume</value>
+  </data>
+  <data name="Variables.AppMuted.DisplayName" xml:space="preserve">
+    <value>{app} muted</value>
+  </data>
+  <data name="Errors.NeedTwoDevices" xml:space="preserve">
+    <value>Toggle mode needs two different devices.</value>
+  </data>
+  <data name="Errors.DeviceUnavailable" xml:space="preserve">
+    <value>That audio device is not connected.</value>
+  </data>
+  <data name="Errors.SwitchFailed" xml:space="preserve">
+    <value>Windows refused to change the default device.</value>
+  </data>
+  <data name="Errors.AppNotPlaying" xml:space="preserve">
+    <value>{app} has no audio session right now. Start playing something in it first.</value>
+  </data>
+  <data name="Errors.AppChangeFailed" xml:space="preserve">
+    <value>Windows refused to change the audio of {app}.</value>
+  </data>
+</root>
+

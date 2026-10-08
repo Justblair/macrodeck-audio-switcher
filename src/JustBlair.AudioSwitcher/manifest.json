@@ -1,0 +1,22 @@
+﻿{
+  "$schema": "https://schemas.macro-deck.app/plugin-manifest-v1.schema.json",
+  "manifestVersion": 1,
+  "id": "uk.justblair.audio-switcher",
+  "name": "Audio Switcher",
+  "version": "0.2.0",
+  "description": "Switch or toggle the default output and microphone, and control per-app volume and mute. Port of DiegoFdezAb's Macro Deck 2 VolumeMixerPlugin.",
+  "icon": "Assets/icon.svg",
+  "entrypoints": {
+    "win-x64": { "executable": "runtimes/win-x64/JustBlair.AudioSwitcher.dll", "runtime": { "kind": "FrameworkDependent", "dotnetVersion": "10.0" } }
+  },
+  "publisher": {
+    "name": "Justblair"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/Justblair/macrodeck-audio-switcher",
+  "compatibility": {
+    "macroDeck": ">=3.0.0-0"
+  }
+}
+
+
