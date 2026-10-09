@@ -6,6 +6,12 @@ This is a port of [VolumeMixerPlugin](https://github.com/DiegoFdezAb/MacroDeckVo
 DiegoFdezAb, the Macro Deck 2 plugin, rewritten for the Macro Deck 3 out-of-process plugin SDK. The
 default-device switching code is based on the original. Windows only.
 
+## Install
+
+Download the `.macroDeckPlugin` file from the [latest release](https://github.com/Justblair/macrodeck-audio-switcher/releases/latest),
+then install it from file in Macro Deck 3. Macro Deck warns that the plugin is not signed by the Store;
+that is expected for a plugin installed outside the Store.
+
 ## Actions
 
 | Action | What it does |
@@ -51,3 +57,4 @@ See [DEVELOPMENT.md](DEVELOPMENT.md) for building, debugging against Macro Deck 
 ## Licence
 
 MIT. See [LICENSE](LICENSE). Original work copyright DiegoFdezAb.
+
